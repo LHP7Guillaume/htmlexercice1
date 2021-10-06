@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.element1 {
+    height: 5vh;
+    width: 80%;
+    background: rgb(82, 226, 82);
+}
+
+.element2 {
+    height: 5vh;
+    width: 20%;
+    background: rgb(47, 49, 175);
+}
+
+.element3 {
+    height: 20vh;
+    width: 40%;
+    background: rgb(199, 27, 27);
+}
+
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width:60%;
+}
+
+.element4 {
+    height: 10vh;
+    width: 50%;
+    background: rgb(219, 159, 28);
+}
+.element5 {
+    height: 10vh;
+    width: 50%;
+    background: rgb(229, 201, 201);
+}
+.element6 {
+    height: 10vh;
+    width: 33%;
+    background: rgb(161, 117, 20);
+}
+.element7 {
+    height: 10vh;
+    width: 34%;
+    background: rgb(46, 199, 226);
+}
+.element8 {
+    height: 10vh;
+    width: 33%;
+    background: rgb(105, 26, 116);
+}
+
+.element9 {
+    height: 20vh;
+    width: 100%;
+    background: rgb(5, 4, 5);
+}
