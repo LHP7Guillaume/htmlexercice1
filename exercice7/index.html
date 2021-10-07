@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Exercice7</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form method="get" action="">
+        <fieldset class="haut">
+            <legend class="top">Votre indentité</legend>
+            <ol>
+                <li>
+
+                    <label for="First-name">Nom :</label>
+                    <input type="text" name="First-name" id="First-name" placeholder="ex : Loup de givre" />
+                </li>
+
+                <li>
+                    <label for="name">Prenom :</label>
+                    <input type="text" name="name" id="name" placeholder="ex : Thrall" />
+                </li>
+
+                <li>
+                    <label for="Email">Adresse mail :</label>
+                    <input type="text" name="Email" id="Email" placeholder="ex : Peon@lahorde.com" />
+
+                </li>
+            </ol>
+        </fieldset>
+        <fieldset class="milieu">
+            <legend class="middle">Adresse de livraison</legend>
+            <ol>
+                <li>
+                    <label for="Adress">Adresse :</label>
+                    <textarea name="Adress" rows="3" cols="10" placeholder="ex : Route d'Ogrimmar"></textarea>
+
+                </li>
+                <li>
+                    <label for="postal">Code Postal :</label>
+                    <input type="text" name="postal" id="postal" placeholder="76600" />
+                </li>
+
+                <li>
+                    <label for="City">Ville :</label>
+                    <input type="text" name="City" id="City" placeholder="Azeroth" />
+                </li>
+
+            </ol>
+        </fieldset>
+
+
+        <fieldset class="bas">
+            <legend class="down">Information de réglement</legend>
+            <ol>
+                <li>
+                    <label for="card">Type de carte bancaire</label>
+                    <div>
+                        <input type="radio" id="Visa" name="groupe" value="visa" />
+                        <label for="visa">Visa</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="Mastercard" name="groupe" value="Mastercard" />
+                        <label for="Mastercard">Mastercard</label>
+                    </div>
+                <li>
+                    <label for="creditcard">Numéro de carte :</label>
+                    <input type="text" name="creditcard" id="creditcard" placeholder="0000000000000000" />
+
+                </li>
+
+                <li>
+                    <label for="securitycode">Code de sécurité :</label>
+                    <input type="text" name="securitycode" id="securitycode" placeholder="xxxx" />
+
+                </li>
+
+                <li>
+                    <label for="name">Nom du titulaire :</label>
+                    <input type="text" name="name" id="name" placeholder="Loup de givre" />
+
+                </li>
+
+
+                </li>
+           </ol>
+        </fieldset>
+            <div>
+                <input type="submit" value="J'achète  !" />
+            </div>
+
+
+    </form>
+</body>
+
+</html>
